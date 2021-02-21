@@ -1,0 +1,38 @@
+@media (max-width: 991.98px) {
+
+    .pt-80 {
+        padding-top: 30px;
+    }
+
+    .section-title h2, .title-text {
+        font-size: 28px;
+    }
+
+    .work-popular-artist .item-links ul {
+        border-right: 2px solid transparent;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    .work-popular-artist .item-links ul.time-limit {
+        border-top: 2px solid #dee2e6;
+        padding-top: 30px;
+    }
+
+    .artist-menu {
+        display: none;
+        padding: 0 15px;
+    }
+
+    .copyright .copyright-content {
+        flex-direction: column;
+    }
+
+    .copyright .list ul {
+        flex-direction: column;
+    }
+
+    .copyright .copyright-social ul {
+        justify-content: center;
+    }
+}

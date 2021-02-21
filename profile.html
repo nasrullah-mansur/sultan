@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sultan</title>
+
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body class="theme-bg profile-page">
+
+        <!-- Header start -->
+        <div class="header">
+            <div class="header-top">
+                <div class="container">
+                    <ul>
+                        <li><a href="#">viewing room</a></li>
+                        <li><a href="#">Buying on Artsy</a></li>
+                        <li><a href="#">Consign with Artsy</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#log-in">log in</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#sign-up">sign up</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-logo">
+                <div class="container">
+                        <div class="d-lg-flex align-items-center">
+                            <div class="logo text-center text-lg-left">
+                                <a href="#"><img src="assets/images/logo.png" alt="site logo"></a>
+                            </div>
+                            <div class="search mt-20">
+                                <form>
+                                    <input type="search" placeholder="Search and hit enter ...">
+                                    <button type="submit" class="d-none"></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="main-menu pb-30 pt-10">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 border-right">
+                                <div class="category">
+                                    <h6><i class="fas fa-list"></i> category</h6>
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Artistic Disciplines</a></li>
+                                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Subject Matter</a></li>
+                                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Styles and Movements</a></li>
+                                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Design Movements</a></li>
+                                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Medium and Techniques</a></li>
+                                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Geographic Regions</a></li>
+                                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Materials</a></li>
+                                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Design Concepts and Techniques</a></li>
+                                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Visual Qualities</a></li>
+                                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Furniture and Lighting</a></li>
+                                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Textiles</a></li>
+                                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Jewelry and Fashion Object Types</a></li>
+                                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Tableware, Vessels, and Objects</a></li>
+                                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Antiquities, Artifacts, and Religious Objects</a></li>
+                                       
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="menu-item">
+                                    <ul>
+                                        <li><a href="#">artist</a></li>
+                                        <li><a href="#">artwork</a></li>
+                                        <li><a href="#">auction</a></li>
+                                        <li><a href="#">viewing room</a></li>
+                                        <li><a href="#">editorial</a></li>
+                                        <li><a href="#">more</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header end -->
+
+    <div class="container mt-120 pb-20">
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="content">
+                    <h2 class="mb-30">Nasrullah Mansur</h2>
+
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="save-flow-tab" data-toggle="tab" href="#save-flow" role="tab"
+                                aria-controls="save-flow" aria-selected="true">save & flow</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="auction-tab" data-toggle="tab" href="#auction" role="tab"
+                                aria-controls="auction" aria-selected="false">auctions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="collect-profile-tab" data-toggle="tab" href="#collect-profile"
+                                role="tab" aria-controls="collect-profile" aria-selected="false">collector profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="setting-tab" data-toggle="tab" href="#setting" role="tab"
+                                aria-controls="setting" aria-selected="false">setting</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="payment-tab" data-toggle="tab" href="#payment" role="tab"
+                                aria-controls="payment" aria-selected="false">payment</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content pt-30" id="myTabContent">
+                        <div class="tab-pane fade show active" id="save-flow" role="tabpanel" aria-labelledby="save-flow-tab">
+                            <div class="work-popular-artist">
+                                <div class="section-title flex left-center">
+                                    <div class="btn-area d-block d-lg-none mb-10 mr-20">
+                                        <button id="artist-mobile" class="white-btn "><i class="fas fa-bars"></i></button>
+                                    </div>
+                                    <h4>Saved Artworks</h4>
+                                </div>
+                                <div class="work-slider-content">
+                                    <div class="work-slider-item">
+                                        <div class="slider-content-area">
+                                            <div class="img">
+                                                <a class="img-link" href="#">
+                                                    <img class="slider-img" src="assets/images/work-populer-artist1.jpg"
+                                                        alt="images">
+                                                </a>
+                                                <a class="love-icon" href="#">
+                                                    <i class="far fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text pt-15">
+                                                <h6 class="mb-0"><a href="#">Sue Williams</a></h6>
+                                                <small>Who’s Afraid of ...</small>
+                                                <p class="mb-0 width-control">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                    elit. Torquatus, is qui consul cum Cn. Nihil sane. Et quidem, inquit, vehementer
+                                                    errat.</p>
+                                                <span class="price d-block">$1000</span>
+                                                <a class="black-border-btn" href="#">contact gallery</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="work-slider-item">
+                                        <div class="slider-content-area">
+                                            <div class="img">
+                                                <a class="img-link" href="#">
+                                                    <img class="slider-img" src="assets/images/work-populer-artist1.jpg"
+                                                        alt="images">
+                                                </a>
+                                                <a class="love-icon" href="#">
+                                                    <i class="far fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text pt-15">
+                                                <h6 class="mb-0"><a href="#">Sue Williams</a></h6>
+                                                <small>Who’s Afraid of ...</small>
+                                                <p class="mb-0 width-control">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                    elit. Torquatus, is qui consul cum Cn. Nihil sane. Et quidem, inquit, vehementer
+                                                    errat.</p>
+                                                <span class="price d-block">$1000</span>
+                                                <a class="black-border-btn" href="#">contact gallery</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="work-slider-item">
+                                        <div class="slider-content-area">
+                                            <div class="img">
+                                                <a class="img-link" href="#">
+                                                    <img class="slider-img" src="assets/images/featured-1.png" alt="images">
+                                                </a>
+                                                <a class="love-icon" href="#">
+                                                    <i class="far fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text pt-15">
+                                                <h6 class="mb-0"><a href="#">Sue Williams</a></h6>
+                                                <small>Who’s Afraid of ...</small>
+                                                <p class="mb-0 width-control">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                    elit. Torquatus, is qui consul cum Cn. Nihil sane. Et quidem, inquit, vehementer
+                                                    errat.</p>
+                                                <span class="price d-block">$1000</span>
+                                                <a class="black-border-btn" href="#">contact gallery</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="work-slider-item">
+                                        <div class="slider-content-area">
+                                            <div class="img">
+                                                <a class="img-link" href="#">
+                                                    <img class="slider-img" src="assets/images/banner-2.png" alt="images">
+                                                </a>
+                                                <a class="love-icon" href="#">
+                                                    <i class="far fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text pt-15">
+                                                <h6 class="mb-0"><a href="#">Sue Williams</a></h6>
+                                                <small>Who’s Afraid of ...</small>
+                                                <p class="mb-0 width-control">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                    elit. Torquatus, is qui consul cum Cn. Nihil sane. Et quidem, inquit, vehementer
+                                                    errat.</p>
+                                                <span class="price d-block">$1000</span>
+                                                <a class="black-border-btn" href="#">contact gallery</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="work-slider-item">
+                                        <div class="slider-content-area">
+                                            <div class="img">
+                                                <a class="img-link" href="#">
+                                                    <img class="slider-img" src="assets/images/banner-2.png" alt="images">
+                                                </a>
+                                                <a class="love-icon" href="#">
+                                                    <i class="far fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text pt-15">
+                                                <h6 class="mb-0"><a href="#">Sue Williams</a></h6>
+                                                <small>Who’s Afraid of ...</small>
+                                                <p class="mb-0 width-control">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                    elit. Torquatus, is qui consul cum Cn. Nihil sane. Et quidem, inquit, vehementer
+                                                    errat.</p>
+                                                <span class="price d-block">$1000</span>
+                                                <a class="black-border-btn" href="#">contact gallery</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="work-popular-artist artist-flow grey-bg mt-30 mb-30">
+                                <div class="section-title flex justify-content-between align-items-end">
+                                    <div class="heading-text w-100">
+                                        <h4>Artists to Follow</h4>
+                                    </div>
+                                </div>
+                                <div class="filter-content">
+                                    <div id="trending" class="artist-slider-items active">
+                                        <div class="row artist-slider-content artist-filter-container">
+                                            <div class="col-lg-4 work-slider-item">
+                                                <div class="slider-content-area white-bg p-0">
+                                                    <div class="img">
+                                                        <a class="img-link" href="#">
+                                                            <img class="slider-img" src="assets/images/work-populer-artist1.jpg"
+                                                                alt="images">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text p-10">
+                                                        <h6 class="mb-0"><a href="#">Sue Williams</a></h6>
+                                                        <small>Who’s Afraid of ...</small>
+                                                        <p class="mb-0 width-control">Lorem ipsum dolor sit amet..</p>
+                                                        <span class="price d-block">$1000</span>
+                                                        <a class="black-border-btn" href="#">contact gallery</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 work-slider-item">
+                                                <div class="slider-content-area white-bg p-0">
+                                                    <div class="img">
+                                                        <a class="img-link" href="#">
+                                                            <img class="slider-img" src="assets/images/work-populer-artist1.jpg"
+                                                                alt="images">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text p-10">
+                                                        <h6 class="mb-0"><a href="#">Sue Williams</a></h6>
+                                                        <small>Who’s Afraid of ...</small>
+                                                        <p class="mb-0 width-control">Lorem ipsum dolor sit amet..</p>
+                                                        <span class="price d-block">$1000</span>
+                                                        <a class="black-border-btn" href="#">contact gallery</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 work-slider-item">
+                                                <div class="slider-content-area white-bg p-0">
+                                                    <div class="img">
+                                                        <a class="img-link" href="#">
+                                                            <img class="slider-img" src="assets/images/work-populer-artist1.jpg"
+                                                                alt="images">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text p-10">
+                                                        <h6 class="mb-0"><a href="#">Sue Williams</a></h6>
+                                                        <small>Who’s Afraid of ...</small>
+                                                        <p class="mb-0 width-control">Lorem ipsum dolor sit amet..</p>
+                                                        <span class="price d-block">$1000</span>
+                                                        <a class="black-border-btn" href="#">contact gallery</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 work-slider-item">
+                                                <div class="slider-content-area white-bg p-0">
+                                                    <div class="img">
+                                                        <a class="img-link" href="#">
+                                                            <img class="slider-img" src="assets/images/work-populer-artist1.jpg"
+                                                                alt="images">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text p-10">
+                                                        <h6 class="mb-0"><a href="#">Sue Williams</a></h6>
+                                                        <small>Who’s Afraid of ...</small>
+                                                        <p class="mb-0 width-control">Lorem ipsum dolor sit amet..</p>
+                                                        <span class="price d-block">$1000</span>
+                                                        <a class="black-border-btn" href="#">contact gallery</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 work-slider-item">
+                                                <div class="slider-content-area white-bg p-0">
+                                                    <div class="img">
+                                                        <a class="img-link" href="#">
+                                                            <img class="slider-img" src="assets/images/work-populer-artist1.jpg"
+                                                                alt="images">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text p-10">
+                                                        <h6 class="mb-0"><a href="#">Sue Williams</a></h6>
+                                                        <small>Who’s Afraid of ...</small>
+                                                        <p class="mb-0 width-control">Lorem ipsum dolor sit amet..</p>
+                                                        <span class="price d-block">$1000</span>
+                                                        <a class="black-border-btn" href="#">contact gallery</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="work-popular-artist mt-30 mb-30">
+                                    <div class="section-title flex left-center">
+                                        <div class="btn-area d-block d-lg-none mb-10 mr-20">
+                                            <button id="artist-mobile" class="white-btn "><i class="fas fa-bars"></i></button>
+                                        </div>
+                                        <h4>category</h4>
+                                    </div>
+                                    <div class="work-slider-content">
+                                        <div class="work-slider-item">
+                                            <div class="slider-content-area">
+                                                <div class="img">
+                                                    <a class="img-link" href="#">
+                                                        <img class="slider-img" src="assets/images/work-populer-artist1.jpg"
+                                                            alt="images">
+                                                    </a>
+                                                    <a class="love-icon" href="#">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="text pt-15">
+                                                    <h6 class="mb-0"><a href="#">Sue Williams</a></h6>
+                                                    <small>Who’s Afraid of ...</small>
+                                                    <p class="mb-0 width-control">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                        elit. Torquatus, is qui consul cum Cn. Nihil sane. Et quidem, inquit, vehementer
+                                                        errat.</p>
+                                                    <span class="price d-block">$1000</span>
+                                                    <a class="black-border-btn" href="#">contact gallery</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="work-slider-item">
+                                            <div class="slider-content-area">
+                                                <div class="img">
+                                                    <a class="img-link" href="#">
+                                                        <img class="slider-img" src="assets/images/work-populer-artist1.jpg"
+                                                            alt="images">
+                                                    </a>
+                                                    <a class="love-icon" href="#">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="text pt-15">
+                                                    <h6 class="mb-0"><a href="#">Sue Williams</a></h6>
+                                                    <small>Who’s Afraid of ...</small>
+                                                    <p class="mb-0 width-control">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                        elit. Torquatus, is qui consul cum Cn. Nihil sane. Et quidem, inquit, vehementer
+                                                        errat.</p>
+                                                    <span class="price d-block">$1000</span>
+                                                    <a class="black-border-btn" href="#">contact gallery</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="work-slider-item">
+                                            <div class="slider-content-area">
+                                                <div class="img">
+                                                    <a class="img-link" href="#">
+                                                        <img class="slider-img" src="assets/images/featured-1.png" alt="images">
+                                                    </a>
+                                                    <a class="love-icon" href="#">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="text pt-15">
+                                                    <h6 class="mb-0"><a href="#">Sue Williams</a></h6>
+                                                    <small>Who’s Afraid of ...</small>
+                                                    <p class="mb-0 width-control">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                        elit. Torquatus, is qui consul cum Cn. Nihil sane. Et quidem, inquit, vehementer
+                                                        errat.</p>
+                                                    <span class="price d-block">$1000</span>
+                                                    <a class="black-border-btn" href="#">contact gallery</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="work-slider-item">
+                                            <div class="slider-content-area">
+                                                <div class="img">
+                                                    <a class="img-link" href="#">
+                                                        <img class="slider-img" src="assets/images/banner-2.png" alt="images">
+                                                    </a>
+                                                    <a class="love-icon" href="#">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="text pt-15">
+                                                    <h6 class="mb-0"><a href="#">Sue Williams</a></h6>
+                                                    <small>Who’s Afraid of ...</small>
+                                                    <p class="mb-0 width-control">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                        elit. Torquatus, is qui consul cum Cn. Nihil sane. Et quidem, inquit, vehementer
+                                                        errat.</p>
+                                                    <span class="price d-block">$1000</span>
+                                                    <a class="black-border-btn" href="#">contact gallery</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="work-slider-item">
+                                            <div class="slider-content-area">
+                                                <div class="img">
+                                                    <a class="img-link" href="#">
+                                                        <img class="slider-img" src="assets/images/banner-2.png" alt="images">
+                                                    </a>
+                                                    <a class="love-icon" href="#">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="text pt-15">
+                                                    <h6 class="mb-0"><a href="#">Sue Williams</a></h6>
+                                                    <small>Who’s Afraid of ...</small>
+                                                    <p class="mb-0 width-control">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                        elit. Torquatus, is qui consul cum Cn. Nihil sane. Et quidem, inquit, vehementer
+                                                        errat.</p>
+                                                    <span class="price d-block">$1000</span>
+                                                    <a class="black-border-btn" href="#">contact gallery</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="work-popular-artist featured-show mt-30 mb-30">
+                                <div class="container">
+                                    <div class="section-title flex justify-content-between align-items-end">
+                                        <div class="heading-text w-100">
+                                            <h4>Category</h4>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-6 mb-30 small-img-area">
+                                            <div class="slider-content-area p-0">
+                                                <div class="img">
+                                                    <a class="img-link h-auto" href="#">
+                                                        <img class="w-100 img-fluid" src="assets/images/work-populer-artist1.jpg" alt="images">
+                                                    </a>
+                                                </div>
+                                                <div class="text pt-15">
+                                                    <h6 class="mb-0 text-uppercase"><a href="#">Sue Williams</a></h6>
+                                                    <small>Who’s Afraid of ...</small>
+                                                    <p class="mb-0 width-control">Online Exclusive, Mar 23 – Jun 7</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 mb-30 small-img-area">
+                                            <div class="slider-content-area p-0">
+                                                <div class="img">
+                                                    <a class="img-link h-auto" href="#">
+                                                        <img class="w-100 img-fluid" src="assets/images/work-populer-artist1.jpg" alt="images">
+                                                    </a>
+                                                </div>
+                                                <div class="text pt-15">
+                                                    <h6 class="mb-0 text-uppercase"><a href="#">Sue Williams</a></h6>
+                                                    <small>Who’s Afraid of ...</small>
+                                                    <p class="mb-0 width-control">Online Exclusive, Mar 23 – Jun 7</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 mb-30 small-img-area">
+                                            <div class="slider-content-area p-0">
+                                                <div class="img">
+                                                    <a class="img-link h-auto" href="#">
+                                                        <img class="w-100 img-fluid" src="assets/images/work-populer-artist1.jpg" alt="images">
+                                                    </a>
+                                                </div>
+                                                <div class="text pt-15">
+                                                    <h6 class="mb-0 text-uppercase"><a href="#">Sue Williams</a></h6>
+                                                    <small>Who’s Afraid of ...</small>
+                                                    <p class="mb-0 width-control">Online Exclusive, Mar 23 – Jun 7</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 mb-30 small-img-area">
+                                            <div class="slider-content-area p-0">
+                                                <div class="img">
+                                                    <a class="img-link h-auto" href="#">
+                                                        <img class="w-100 img-fluid" src="assets/images/work-populer-artist1.jpg" alt="images">
+                                                    </a>
+                                                </div>
+                                                <div class="text pt-15">
+                                                    <h6 class="mb-0 text-uppercase"><a href="#">Sue Williams</a></h6>
+                                                    <small>Who’s Afraid of ...</small>
+                                                    <p class="mb-0 width-control">Online Exclusive, Mar 23 – Jun 7</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="auction" role="tabpanel" aria-labelledby="auction-tab">
+                            <h4 class="text-capitalize">Active bid</h4>
+                            <div class="auctions-page">
+                                <div class="auction-item pb-30 border-bottom mb-15">
+                                    <a href="#">
+                                        <div class="img">
+                                            <img class="img-fluid w-100" src="assets/images/auction-1.jpg" alt="auction img">
+                                            <div class="img-overlay flex center-center">
+                                                <div class="overlay-content">
+                                                    <h6>Live bidding opening in</h6>
+                                                    <div class="bidding-time">
+                                                        <div class="simply-countdown"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="text-area flex left-center mt-15">
+                                        <div class="text">
+                                            <h6 class="mb-0 text-uppercase">Live Auction</h6>
+                                            <p class="mb-0">Los Angeles Contemporary Exhibitions: Live Benefit Auction 2020</p>
+                                            <span>Live bidding begins Sep 9 10:45 PM EDT</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="text-capitalize">bid history</h4>
+                            <div class="auctions-page">
+                                <div class="row">
+                                    <div class="col-lg-6 mb-30">
+                                        <div class="auction-item pb-30 border-bottom mb-15">
+                                            <a href="#">
+                                                <div class="img">
+                                                    <img class="img-fluid w-100" src="assets/images/auction-1.jpg" alt="auction img">
+                                                    <div class="img-overlay flex center-center">
+                                                        <div class="overlay-content">
+                                                            <h6>Live bidding opening in</h6>
+                                                            <div class="bidding-time">
+                                                                <div class="simply-countdown"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="text-area flex left-center mt-15">
+                                                <div class="text">
+                                                    <h6 class="mb-0 text-uppercase">Live Auction</h6>
+                                                    <p class="mb-0">Los Angeles Contemporary Exhibitions: Live Benefit Auction 2020</p>
+                                                    <span>Live bidding begins Sep 9 10:45 PM EDT</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mb-30">
+                                        <div class="auction-item pb-30 border-bottom mb-15">
+                                            <a href="#">
+                                                <div class="img">
+                                                    <img class="img-fluid w-100" src="assets/images/auction-1.jpg" alt="auction img">
+                                                    <div class="img-overlay flex center-center">
+                                                        <div class="overlay-content">
+                                                            <h6>Live bidding opening in</h6>
+                                                            <div class="bidding-time">
+                                                                <div class="simply-countdown"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="text-area flex left-center mt-15">
+                                                <div class="text">
+                                                    <h6 class="mb-0 text-uppercase">Live Auction</h6>
+                                                    <p class="mb-0">Los Angeles Contemporary Exhibitions: Live Benefit Auction 2020</p>
+                                                    <span>Live bidding begins Sep 9 10:45 PM EDT</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="upcoming-auctions">
+                                <ul>
+                                    <li class="flex left-center py-2 border-bottom">
+                                        <div class="text pr-15">
+                                            <h6 class="mb-0"><a href="#">Freeman's: The Collection of Dr. Henry & Mrs. Fannie Levine</a></h6>
+                                            <span>September 16, 5:00PM</span>
+                                        </div>
+                                        <a class="black-btn ml-auto" href="#">bid now</a>
+                                    </li>
+                                    <li class="flex left-center py-2 border-bottom">
+                                        <div class="text pr-15">
+                                            <h6 class="mb-0"><a href="#">Freeman's: The Collection of Dr. Henry & Mrs. Fannie Levine</a></h6>
+                                            <span>September 16, 5:00PM</span>
+                                        </div>
+                                        <a class="black-btn ml-auto" href="#">bid now</a>
+                                    </li>
+                                    <li class="flex left-center py-2 border-bottom">
+                                        <div class="text pr-15">
+                                            <h6 class="mb-0"><a href="#">Freeman's: The Collection of Dr. Henry & Mrs. Fannie Levine</a></h6>
+                                            <span>September 16, 5:00PM</span>
+                                        </div>
+                                        <a class="black-btn ml-auto" href="#">bid now</a>
+                                    </li>
+                                    <li class="flex left-center py-2 border-bottom">
+                                        <div class="text pr-15">
+                                            <h6 class="mb-0"><a href="#">Freeman's: The Collection of Dr. Henry & Mrs. Fannie Levine</a></h6>
+                                            <span>September 16, 5:00PM</span>
+                                        </div>
+                                        <a class="black-btn ml-auto" href="#">bid now</a>
+                                    </li>
+                                    <li class="flex left-center py-2 border-bottom">
+                                        <div class="text pr-15">
+                                            <h6 class="mb-0"><a href="#">Freeman's: The Collection of Dr. Henry & Mrs. Fannie Levine</a></h6>
+                                            <span>September 16, 5:00PM</span>
+                                        </div>
+                                        <a class="black-btn ml-auto" href="#">bid now</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="collect-profile" role="tabpanel" aria-labelledby="collect-profile-tab">
+                            <div class="about-form">
+                                <h4 class="mb-30">About You</h4>
+                                <form>
+                                    <div class="form-group">
+                                        <label for="p-location">Primary Location</label>
+                                        <input type="text" class="form-control" id="p-location" placeholder="Enter your city">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="profession">Profession</label>
+                                        <input type="text" class="form-control" id="profession" placeholder="Profession">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">rice Range</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>$100 - $1000</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                    <h6 class="text-capitalize mt-15">advance setting</h6>
+                                    <div class="custom-control custom-checkbox mr-sm-2">
+                                        <input type="checkbox" class="custom-control-input" id="remember">
+                                        <label class="custom-control-label" for="remember">Remember my preference</label>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="black-btn">Submit</button>
+                                </form>
+                            </div>
+                            <div class="collect-form mt-30 pt-30 border-top">
+                                <h4>Artists You Collect</h4>
+                                <span>Adding artists that you collect will help Artsy and galleries to best serve your needs when answering your inquiry.</span>
+                                <form action="">
+                                    <div class="form-group">
+                                        <label for="search">Profession</label>
+                                        <input type="text" class="form-control" id="search" placeholder="Search artist">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="gallery-intro pt-30 mt-30 border-top">
+                                <h4>Your Gallery Intro</h4>
+                                <small class="text-uppercase text-bold">Preview</small>
+                                <p>Nasrullah has been an Artsy member since September 2020.</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="setting" role="tabpanel" aria-labelledby="setting-tab">
+                            <div class="about-form">
+                                <h4 class="mb-30">Information</h4>
+                                <form>
+                                    <div class="form-group">
+                                        <label for="f-name">Full name</label>
+                                        <input type="text" class="form-control" id="f-name" placeholder="Enter full name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="text" class="form-control" id="email" placeholder="Enter email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="mobile">Mobile no:</label>
+                                        <input type="text" class="form-control" id="mobile" placeholder="Enter Mobile no:">
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="black-btn">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="collect-form mt-30 pt-30 border-top">
+                                <h4>Password</h4>
+                                <form action="">
+                                    <div class="form-group">
+                                        <label for="current-pass">Current password</label>
+                                        <input type="password" class="form-control" id="current-pass" placeholder="**************" disabled>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="n-pass">New password</label>
+                                        <input type="password" class="form-control" id="n-pass" placeholder="New password">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="r-password">Repeat New Password</label>
+                                        <input type="password" class="form-control" id="r-password" placeholder="Repeat New Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="black-btn">Submit</button>
+                                        <button type="submit" class="white-btn">cancel</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="to-fact-auth pt-30 mt-30 border-top">
+                                <h4>Two-factor Authentication</h4>
+                                <p class="mb-30">Set up an additional layer of security by requiring a security code in addition to your password to log in to your Artsy account.</p>
+                                <ul>
+                                    <li class="p-15 flex left-center border mb-30">
+                                        <div class="content">
+                                            <h6>App Authenticator</h6>
+                                            <p>Generate secure authentication codes using an application such as <a class="text-underline" href="#">1Password</a> or Authy.</p>
+                                        </div>
+                                        <div class="btn-area ml-auto">
+                                            <a href="#" class="black-btn">set up</a>
+                                        </div>
+                                    </li>
+                                    <li class="p-15 flex left-center border mb-30">
+                                        <div class="content">
+                                            <h6>App Authenticator</h6>
+                                            <p>Generate secure authentication codes using an application such as <a class="text-underline" href="#">1Password</a> or Authy.</p>
+                                        </div>
+                                        <div class="btn-area ml-auto">
+                                            <a href="#" class="black-btn">set up</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="linked-account pt-30 mt-30 border-top">
+                                <h4>linked account</h4>
+                                <ul>
+                                    <li class="p-15 flex left-center border mb-30">
+                                        <div class="content">
+                                            <h6 class="text-uppercase">Facebook</h6>
+                                        </div>
+                                        <div class="btn-area ml-auto">
+                                            <a href="#" class="white-btn"><i class="fab fa-facebook-square"></i> Connect</a>
+                                        </div>
+                                    </li>
+                                    <li class="p-15 flex left-center border mb-30">
+                                        <div class="content">
+                                            <h6 class="text-uppercase">Apple</h6>
+                                        </div>
+                                        <div class="btn-area ml-auto">
+                                            <a href="#" class="white-btn"><i class="fab fa-apple"></i> Connect</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="linked-account pt-30 mt-30 border-top border-bottom pb-30 mb-100">
+                                <h4>Email preference</h4>
+                                <ul class="border p-15">
+                                    <li class="flex left-center mb-10">
+                                        <div class="custom-control custom-checkbox mr-sm-2">
+                                            <input type="checkbox" class="custom-control-input" id="one">
+                                            <label class="custom-control-label" for="one">Remember my preference</label>
+                                        </div>
+                                    </li>
+                                    <li class="flex left-center mb-10">
+                                        <div class="custom-control custom-checkbox mr-sm-2">
+                                            <input type="checkbox" class="custom-control-input" id="two">
+                                            <label class="custom-control-label" for="two">Remember my preference</label>
+                                        </div>
+                                    </li>
+                                    <li class="flex left-center mb-10">
+                                        <div class="custom-control custom-checkbox mr-sm-2">
+                                            <input type="checkbox" class="custom-control-input" id="three">
+                                            <label class="custom-control-label" for="three">Remember my preference</label>
+                                        </div>
+                                    </li>
+                                    <li class="flex left-center mb-10">
+                                        <div class="custom-control custom-checkbox mr-sm-2">
+                                            <input type="checkbox" class="custom-control-input" id="four">
+                                            <label class="custom-control-label" for="four">Remember my preference</label>
+                                        </div>
+                                    </li>
+                                    <li class="flex left-center mb-10">
+                                        <div class="custom-control custom-checkbox mr-sm-2">
+                                            <input type="checkbox" class="custom-control-input" id="five">
+                                            <label class="custom-control-label" for="five">Remember my preference</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="#" class="btn btn-danger text-capitalize text-white d-inline-block mt-30">delete account</a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="payment" role="tabpanel" aria-labelledby="payment-tab">
+                            <div class="payment pt-30 mt-30 border-top border-bottom pb-30 mb-100">
+                                <h4>Payment</h4>
+                                <form>
+                                    <div class="form-row">
+                                      <div class="col-12">
+                                        <div class="form-group">
+                                            <label for="card-no">Card no</label>
+                                            <input type="number" class="form-control" id="card-no" placeholder="Card no">
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="exp-date">Expire date</label>
+                                            <input type="date" class="form-control" id="exp-date" placeholder="Expire date">
+                                        </div>
+                                      </div>
+                                      <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="cvc">CVC</label>
+                                            <input type="text" class="form-control" id="cvc" placeholder="CVC">
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="country">Country</label>
+                                            <input type="text" class="form-control" id="country" placeholder="Country">
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="post-code">Post code</label>
+                                            <input type="text" class="form-control" id="post-code" placeholder="Post code">
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label for="address-1">Address one</label>
+                                            <input type="text" class="form-control" id="address-1" placeholder="Address-1">
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label for="address-2">Address two</label>
+                                            <input type="text" class="form-control" id="address-2" placeholder="Address-2">
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="city">City</label>
+                                            <input type="text" class="form-control" id="city" placeholder="City">
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="state">State</label>
+                                            <input type="text" class="form-control" id="state" placeholder="State">
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <button class="black-btn">Submit</button>
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Copyright start -->
+        <section class="copyright pt-30 pb-30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <div class="copyright-content flex left-center">
+                            <div class="logo">
+                                <a href="#" class="brand-logo">
+                                    <img src="assets/images/logo.png" alt="logo">
+                                </a>
+                            </div>
+                            <div class="list">
+                                <ul class="flex left-center ml-15">
+                                    <li>&copy; 2020 Artsy</li>
+                                    <li><a href="#">Terms of Use</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Do not sell my personal information</a></li>
+                                    <li><a href="#">Security</a></li>
+                                    <li><a href="#">Conditions of Sale</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="copyright-social h-100">
+                            <ul class="flex right-center h-100">
+                                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Copyright end -->
+
+
+
+
+
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.2.2.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/simplyCountdown.min.js"></script>
+
+    <!-- main script -->
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
